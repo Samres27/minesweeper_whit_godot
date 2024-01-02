@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://cegpv7241saaa"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_ni0rk"]
+[ext_resource type="PackedScene" uid="uid://batr588pmi3b6" path="res://area_2d.tscn" id="2_j0wla"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ni0rk")
+cell = ExtResource("2_j0wla")
